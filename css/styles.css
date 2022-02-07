@@ -533,6 +533,8 @@ margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.1);
     transition: background-color 250ms linear;
 }
+
+
 .footer-subscribe{
     margin-left: 93px;
 }
@@ -569,7 +571,6 @@ position: relative;
     left:148px;
     top: 13px;
 }
-
 /* ============== модальное окно ============================================== */
 .backdrop{
     position: fixed;
@@ -579,7 +580,6 @@ position: relative;
     top: 0px;
     background: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms, visibility 250ms;
-    display: flex;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -587,7 +587,6 @@ position: relative;
 .backdrop.is-hidden .modal{
      transform: scale(0.5);
 }
-.
 
 .modal{
     position: absolute;
@@ -643,10 +642,9 @@ position: relative;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    /* identical to box height */
+
     letter-spacing: 0.01em;
     color: #757575;
-    
 }
 .modal-text{
     height:40px;
@@ -703,21 +701,6 @@ position: relative;
     align-items: center;
     justify-content: center;
 }
-/*.modal-sub-lab::before{
-    content: '';
-    width: 16px;
-    height: 15px;
-    border: 1px solid #212121;
-    border-radius: 2px;
-    margin-right: 8px;
-}
-.subscribe-check:checked + .modal-sub-lab::before{
-    border: none;
-    background-image: url(../images/icon-check.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}*/
 .modal-sub-lab span{
     width: 16px;
     height: 15px;
@@ -759,11 +742,8 @@ position: relative;
     margin-top: 30px;
     margin-bottom: 40px;
 }
-/* =================================================================== */
 
 /* ===========================  portfolio  ==========================*/
-
-/* ================================================================== */
 
 .filter{
     list-style: none;
