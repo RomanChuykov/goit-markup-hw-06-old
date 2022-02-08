@@ -536,7 +536,7 @@ margin-bottom: 20px;
 
 
 .footer-subscribe{
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .footer-mail{
@@ -547,21 +547,19 @@ margin-bottom: 20px;
     padding-left: 18px;
     cursor: pointer;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-/* display: flex; */
-/* align-items: center; */
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-
-
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
 }
 .but-wrap{
     position: relative;
@@ -585,6 +583,7 @@ position: relative;
     color: #FFFFFF;
     padding-right: 29px;
     cursor: pointer;
+    border: none;
 }
 .button-pic{
     position: absolute;
@@ -611,9 +610,6 @@ position: relative;
 .modal{
     position: absolute;
     width: 528px;
-    min-height: 581px;
-    /* left: 536px; */
-    /* top: 221px; */
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -621,8 +617,8 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
+   
     
 }
 .modal-close{
@@ -640,6 +636,13 @@ position: relative;
     align-items: center;
     cursor: pointer;
 }
+
+
+.modal-close:hover> .close-pic,
+.modal-close:focus.close-pic{
+    
+    fill: var(--nav-hover);
+}
 .is-hidden{
     opacity: 0;
     pointer-events: none;
@@ -654,7 +657,6 @@ position: relative;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 40px;
     margin-bottom: 12px;
 }
 .modal-label{
@@ -707,6 +709,19 @@ position: relative;
     margin-bottom: 20px;
     outline: none;
     cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
 }
 .div-subs{
     padding-left: 12px;
@@ -724,6 +739,19 @@ position: relative;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height, or 171% */
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+.
 }
 .modal-sub-lab span{
     width: 16px;
@@ -764,8 +792,8 @@ position: relative;
     color: #FFFFFF;
     margin-left: 124px;
     margin-top: 30px;
-    margin-bottom: 40px;
     cursor: pointer;
+    border: none;
 }
 
 /* ===========================  portfolio  ==========================*/
